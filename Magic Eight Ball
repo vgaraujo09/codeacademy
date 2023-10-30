@@ -1,0 +1,29 @@
+let userName = " ";
+userName ? console.log(`Hello, ${userName}`) : console.log(`Hello!`);
+const userQuestion = "O que voce deseja fazer no Magic Eight Ball?";
+console.log(`${userName}, ${userQuestion}`);
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = randomNumber;
+switch (eightBall) {
+  case 1:
+    eightBall = console.log("It is certain");
+    break;
+  case 2:
+    console.log("It is decidedly so");
+    break;
+  case 3:
+    console.log("Reply hazy try again");
+    break;
+  case 4:
+    console.log("Cannot predict now");
+    break;
+  case 5:
+    console.log("Do not count on it");
+    break;
+  case 7:
+    console.log("My sources say no");
+    break;
+  case 8:
+    console.log("Outrlok not so good");
+    break;
+}
