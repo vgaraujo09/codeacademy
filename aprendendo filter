@@ -3,8 +3,13 @@ const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 // Call .filter() on randomNumbers below
 const smallNumbers = randomNumbers.filter(randomNumbers =>{return randomNumbers < 250 })
 
+### Filtra numeros menores que 250
+
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 
 
 // Call .filter() on favoriteWords below
 const longFavoriteWords = favoriteWords.filter( favoriteWords => {return favoriteWords.length > 7;})
+
+### Filtra palavras com mais de 7 caracteres
+
